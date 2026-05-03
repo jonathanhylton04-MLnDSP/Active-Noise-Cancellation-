@@ -1,4 +1,4 @@
-# Active Noise Cancellation: Adaptive & Deep Learning Methods
+# Active Noise Cancellation — Adaptive & Deep Learning Methods
 
 > A MATLAB simulation comparing Wiener ANC, FxLMS, NFxLMS, and Deep ANC Lite for active noise cancellation using real acoustic path data and real-world noise recordings.
 
@@ -119,7 +119,7 @@ project_folder/
 ├── ECE6095Project.m          # Main MATLAB script
 ├── Its Over.mp3              # Music source file
 │
-├── MS-SNSD/
+├── MS-SNSD/                  # Download separately — see How to Run
 │   └── noise_test/
 │       ├── AirConditioner_1.wav
 │       ├── Babble_1.wav
@@ -127,13 +127,13 @@ project_folder/
 │       ├── ShuttingDoor_1.wav
 │       └── AirportAnnouncements_1.wav
 │
-├── PANDAR_database_1.0/
+├── PANDAR_database_1.0/      # Download separately — see How to Run
 │   └── BoseQC20/
 │       └── acoustic_booth/
 │           └── persons/
 │               └── PANDAR_TF_001_person_BoseQC20.ita
 │
-├── toolbox/                  # ITA Toolbox files
+├── toolbox/                  # Download separately — see How to Run
 │
 ├── project_figures/          # Auto-created by script
 └── project_results/          # Auto-created by script
@@ -150,20 +150,35 @@ Built and tested in **MATLAB**. The following toolboxes are recommended:
 - Deep Learning Toolbox
 - Statistics and Machine Learning Toolbox
 
-Reading the PANDAR `.ita` impulse response file also requires the **ITA Toolbox** and its `ita_read` function.
-
 ---
 
 ## How to Run
 
-1. Clone or download this repository.
-2. Download [MS-SNSD](https://github.com/microsoft/MS-SNSD) and place the `noise_test` folder in `MS-SNSD/`.
-3. Download the [PANDAR database](https://www.iks.rwth-aachen.de/en/research/tools-downloads/databases/paths-for-active-noise-cancellation-development-and-research/) and place it in `PANDAR_database_1.0/`.
-4. Place the ITA Toolbox inside the `toolbox/` folder.
-5. Place your music source file (`Its Over.mp3`) in the project root.
-6. Open MATLAB and set the working directory to the project folder.
-7. Run the main script:
+### 1. Clone this repository
+```bash
+git clone https://github.com/jonathanhylton04-MLnDSP/Active-Noise-Cancellation-.git
+```
 
+### 2. Download MS-SNSD (Noise Dataset)
+1. Go to https://github.com/microsoft/MS-SNSD
+2. Clone or download the repo
+3. Place the `noise_test/` folder inside `MS-SNSD/` in the project directory
+
+### 3. Download PANDAR Database (Acoustic Paths)
+1. Go to https://www.iks.rwth-aachen.de/en/research/tools-downloads/databases/paths-for-active-noise-cancellation-development-and-research/
+2. Download the PANDAR database
+3. Place it in the project directory as `PANDAR_database_1.0/`
+
+### 4. Download the ITA Toolbox (required to read .ita files)
+1. Go to https://git.rwth-aachen.de/ita/toolbox
+2. Download and place the toolbox files inside the `toolbox/` folder
+3. The script uses `ita_read` to load the PANDAR impulse response
+
+### 5. Add your music file
+Place your music file (`Its Over.mp3`) in the project root folder.
+
+### 6. Run in MATLAB
+Open MATLAB, set the working directory to the project folder, and run:
 ```matlab
 ECE6095Project
 ```
@@ -216,6 +231,6 @@ The script prints SNR improvement and STOI scores for each method to the console
 
 ## Author
 
-**Jonathan Hylton**  
-Electrical Engineering  
+**Jonathan Hylton**
+Electrical Engineering
 University of Connecticut
