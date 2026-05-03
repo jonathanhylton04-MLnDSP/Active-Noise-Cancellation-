@@ -116,10 +116,10 @@ The secondary path impulse response comes from the [PANDAR ANC Path Database](ht
 ```
 project_folder/
 │
-├── ECE6095Project.m          # Main MATLAB script
-├── Its Over.mp3              # Music source file
+├── ECE6095Project.m # Main MATLAB script
+├── Its Over.mp3 # Music source file
 │
-├── MS-SNSD/                  # Download separately — see How to Run
+├── MS-SNSD/ # Download separately — see How to Run
 │   └── noise_test/
 │       ├── AirConditioner_1.wav
 │       ├── Babble_1.wav
@@ -127,16 +127,16 @@ project_folder/
 │       ├── ShuttingDoor_1.wav
 │       └── AirportAnnouncements_1.wav
 │
-├── PANDAR_database_1.0/      # Download separately — see How to Run
+├── PANDAR_database_1.0/ # Download separately — see How to Run
 │   └── BoseQC20/
 │       └── acoustic_booth/
 │           └── persons/
 │               └── PANDAR_TF_001_person_BoseQC20.ita
 │
-├── toolbox/                  # Download separately — see How to Run
+├── toolbox/ # Download separately — see How to Run
 │
-├── project_figures/          # Auto-created by script
-└── project_results/          # Auto-created by script
+├── project_figures/ # Auto-created by script
+└── project_results/ # Auto-created by script
 ```
 
 ---
