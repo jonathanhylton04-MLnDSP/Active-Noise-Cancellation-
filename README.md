@@ -162,22 +162,15 @@ git clone https://github.com/jonathanhylton04-MLnDSP/Active-Noise-Cancellation-.
 ### 2. Download MS-SNSD (Noise Dataset)
 1. Go to https://github.com/microsoft/MS-SNSD
 2. Clone or download the repo
-3. Place the `noise_test/` folder inside `MS-SNSD/` in the project directory
 
 ### 3. Download PANDAR Database (Acoustic Paths)
 1. Go to https://www.iks.rwth-aachen.de/en/research/tools-downloads/databases/paths-for-active-noise-cancellation-development-and-research/
 2. Download the PANDAR database
-3. Place it in the project directory as `PANDAR_database_1.0/`
 
-### 4. Download the ITA Toolbox (required to read .ita files)
-1. Go to https://git.rwth-aachen.de/ita/toolbox
-2. Download and place the toolbox files inside the `toolbox/` folder
-3. The script uses `ita_read` to load the PANDAR impulse response
-
-### 5. Add your music file
+### 4. Add your music file
 Place your music file (`Its Over.mp3`) in the project root folder.
 
-### 6. Run in MATLAB
+### 5. Run in MATLAB
 Open MATLAB, set the working directory to the project folder, and run:
 ```matlab
 ECE6095Project
