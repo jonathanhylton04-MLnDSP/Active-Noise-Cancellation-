@@ -220,12 +220,18 @@ The script prints SNR improvement and STOI scores for each method to the console
 
 ## References
 
-1. S. M. Kuo and D. R. Morgan, "Active noise control: A tutorial review," *Proceedings of the IEEE*, vol. 87, no. 6, pp. 943–973, 1999.
-2. H. Zhang and D. Wang, "A deep learning approach to active noise control," *Interspeech*, 2020.
-3. H. Zhang and D. Wang, "Deep ANC: A deep learning approach to active noise control," *Neural Networks*, vol. 141, pp. 1–10, 2021.
-4. C. K. A. Reddy et al., "A scalable noisy speech dataset and online subjective test framework," *Interspeech*, 2019.
-5. Microsoft, "Microsoft Scalable Noisy Speech Dataset," GitHub repository, https://github.com/microsoft/MS-SNSD.
-6. S. Liebich, J. Fabry, P. Jax, and P. Vary, "Acoustic path database for ANC in-ear headphone development," *International Congress on Acoustics*, 2019.
+1. S. M. Kuo and D. R. Morgan, "Active noise control: A tutorial review," *Proceedings of the IEEE*, vol. 87, no. 6, pp. 943–973, Jun. 1999.
+2. H. Zhang and D. Wang, "A deep learning approach to active noise control," in *Proc. Interspeech 2020*, Shanghai, China, Oct. 2020, pp. 1141–1145.
+3. H. Zhang and D. Wang, "Deep ANC: A deep learning approach to active noise control," *Neural Networks*, vol. 141, pp. 1–10, Sep. 2021.
+4. C. K. A. Reddy, E. Beyrami, J. Pool, R. Cutler, S. Srinivasan, and J. Gehrke, "A scalable noisy speech dataset and online subjective test framework," in *Proc. Interspeech 2019*, Graz, Austria, Sep. 2019, pp. 1816–1820.
+5. Microsoft, "Microsoft Scalable Noisy Speech Dataset," GitHub repository, 2021. [Online]. Available: https://github.com/microsoft/MS-SNSD. Accessed: May 1, 2026.
+6. Institute of Communication Systems, RWTH Aachen University, "Paths for Active Noise Cancellation Development and Research," 2019. [Online]. Available: https://www.iks.rwth-aachen.de/en/research/tools-downloads/databases/paths-for-active-noise-cancellation-development-and-research/. Accessed: May 1, 2026.
+7. S. Liebich, J. Fabry, P. Jax, and P. Vary, "Acoustic path database for ANC in-ear headphone development," in *Proc. 23rd International Congress on Acoustics*, Aachen, Germany, Sep. 2019, pp. 4326–4333.
+8. C. H. Taal, R. C. Hendriks, R. Heusdens, and J. Jensen, "An algorithm for intelligibility prediction of time frequency weighted noisy speech," *IEEE Transactions on Audio, Speech, and Language Processing*, vol. 19, no. 7, pp. 2125–2136, Sep. 2011.
+9. MathWorks, "stoi, Short time objective intelligibility measure," 2026. [Online]. Available: https://www.mathworks.com/help/audio/ref/stoi.html. Accessed: May 1, 2026.
+10. M. Escabi, *Audio Signal Processing and Machine Learning*, Presentation 5, Wiener Filter and Audio Calibration. University of Connecticut, 2026.
+11. J. Hylton, *Wiener Filter, ANC, and Deep ANC Notes*. University of Connecticut, 2026.
+
 
 ---
 
