@@ -1,4 +1,4 @@
-# Active Noise Cancellation — Adaptive & Deep Learning Methods
+# Active Noise Cancellation: Offline, Adaptive & Deep Learning Methods
 
 > A MATLAB simulation comparing Wiener ANC, FxLMS, NFxLMS, and Deep ANC Lite for active noise cancellation using real acoustic path data and real-world noise recordings.
 
@@ -233,4 +233,5 @@ The script prints SNR improvement and STOI scores for each method to the console
 
 **Jonathan Hylton**
 Electrical Engineering
+Digital Signal Processing and Machine Learning for Speech, Audio & Music
 University of Connecticut
