@@ -232,5 +232,5 @@ The script prints SNR improvement and STOI scores for each method to the console
 
 **Jonathan Hylton**  
 **Electrical Engineering**  
-**Digital Signal Processing and Machine Learning for Speech, Audio & Music**  
+**Digital/Audio Signal Processing and Machine Learning for Speech and Music**  
 **University of Connecticut, Storrs, CT**  
